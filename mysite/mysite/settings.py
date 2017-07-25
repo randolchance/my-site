@@ -26,7 +26,7 @@ SECRET_KEY = 'i@-5-zpr7d6slnvuhq(bxz0z#xf6(f=*m_q$c%d$&j5i(b%^+o'
 DEBUG = True
 
 # Change <your_username> once you've set up an account
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'randolchance.pythonanywhere.com']
 
 
 # Application definition
