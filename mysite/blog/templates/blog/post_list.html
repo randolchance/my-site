@@ -3,9 +3,16 @@
         <title>Randol Chance's Epic Blog of Blogged Epicness</title>
     </head>
     <body>
-        <h1>Hi there!</h1>
-        <p>This message goes out to the Smoosh-smoosh!</p>
-        <p>This message is for Felix, the superchubs!</p>
+        <div>
+            <h1><a href="/">Randol Chance's Epic Blog</a></h1>
+        </div>
+		{% for post in posts %}
+			<div>
+				<p>published: {{ post.published_date }}</p>
+				<h2><a href="">{{ post.title }}</a></h2>
+				<p>{{ post.text|linebreaksbr }}</p>
+			</div>
+		{% endfor %}
+        
     </body>
-    
 </html>
